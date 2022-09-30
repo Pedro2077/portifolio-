@@ -1,0 +1,38 @@
+nav {
+    width: 100%;
+    display: flex;
+    position: relative;
+    background-color: rgb(41, 38, 38);
+    overflow: hidden;
+
+}
+
+nav a {
+
+    margin: auto 20px auto 40px;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+nav a {
+    float: left;
+    list-style: none;
+    margin-left: 20px;
+    color: rgb(55, 248, 7);
+}
+body{
+    background-color: gray;
+}
+
+.rodape {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: gray;
+    border-style: solid;
+    height: auto;
+    width: auto;
+    font-family: "open sans";
+}

@@ -1,0 +1,55 @@
+nav {
+    width: 100%;
+    display: flex;
+    position: relative;
+    background-color: rgb(1, 14, 1);
+    overflow: hidden;
+}
+
+nav a {
+
+    margin: auto 20px auto 40px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a {
+    float: left;
+    list-style: none;
+    margin-left: 20px;
+    color: #09f010;
+}
+
+body {
+    background-image: url(/img/krystian-biskup-vikings.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    height: 96vh;
+    background: 96vh;
+    position: relative;
+
+}
+
+.video {
+    position: absolute;
+    height: 50%;
+    width: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.rodape {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: gray;
+    border-style: solid;
+    height: auto;
+    width: auto;
+    font-family: "open sans";
+}
